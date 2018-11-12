@@ -65,5 +65,5 @@
   </div><!-- container-fluid -->
 </nav>
 
-<script src="js/jquery-1.10.2.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="asset/bootstrap/js/jquery-1.10.2.js"></script>
+<script src="asset/bootstrap/js/bootstrap.min.js"></script>
