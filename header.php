@@ -52,4 +52,3 @@
   </div><!-- container-fluid -->
 </nav>
 
-<?php include 'index.php';
