@@ -123,21 +123,30 @@ if (isset($_POST['login'])) {
     tr:nth-child(even) {
         background-color: #dddddd;
     }
+
+    .img-responsive {
+    display: block;
+    max-width: 80%;
+    height: auto;
+}
 </style>
 
 
 <!-- [Banner] ภาพปก และข้อความบนภาพ -->
 <div class="banner">    	   
-    <img src="images/photos/banner.jpg"  class="img-responsive" alt="slide">
+    
+   <Center> <img src="images/banner2.jpg"  class="img-responsive" alt="slide">
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">
-                <h1  class="animated fadeInDown">Academic Service COC</h1>
-                <p class="animated fadeInUp">Welcome  to COC-Course.</p>                
+                <!-- <h1  class="animated fadeInDown">Academic Services COC</h1>
+                <p class="animated fadeInUp">Welcome to COC-Course.</p>                 -->
             </div>
         </div>
     </div>
+</Center>
 </div>
+
 
 
 <!-- [Popup แบบฟอร์ม] สมัครสมาชิก , เข้าสู่ระบบ-->

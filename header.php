@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Academic Service System</title>
+    <title>Academic Services System</title>
 
 <!-- [เชื่อม] Font -->
     <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
@@ -38,7 +38,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="images/logococ.png"  alt="holiday crown"></a>
+      <a class="navbar-brand" href="index.php"><img src="images/logococ.png" width="120px"  alt="College of Computing"></a>
     </div>
 <!-- แก้ไข Menu -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
