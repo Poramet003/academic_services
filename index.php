@@ -294,7 +294,7 @@ if (isset($_POST['login'])) {
 <!-- [เชื่อม] JS เพื่อเวลากดแล้วเด้งของ Popup ของสมัครสมาชิก 
         ** ต้องไว้ตรงนี้หากไปไว้ใน header จะไม่ทำงาน **     -->
         
-<script src="asset/bootstrap/js/popupForSignupAndSignin.js"></script>
+<script src="assets/bootstrap/js/popupForSignupAndSignin.js"></script>
 
 
 
