@@ -12,8 +12,8 @@
     <title>Academic Service System</title>
 
 <!-- [เชื่อม] Font -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800' rel='stylesheet' type='text/css'> -->
 <!-- [เชื่อม] font awesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- [เชื่อม] bootstrap -->
@@ -44,7 +44,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand" href="user_home.php"><img src="images/logococ.png"  alt="holiday crown"></a>
+      <a class="navbar-brand" href="user_home.php"><img src="images/logococ.png" width="120px"  alt="College of Computing"></a>
     </div>
 
 

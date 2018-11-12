@@ -43,7 +43,7 @@ include_once 'dbconnect.php';
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="admin_index.php"><img src="images/logococ.png"  alt="holiday crown"></a>
+      <a class="navbar-brand" href="admin_index.php"><img src="images/logococ.png" width="120px"  alt="College of Computing"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

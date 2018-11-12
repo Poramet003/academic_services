@@ -60,12 +60,8 @@ include_once 'header_user.php';
                                                     $connect = mysqli_connect("localhost","root","","academicservicedb");
                                                     mysqli_set_charset($connect, "utf8");
                                                             if (!isset($smtUpdate)) {
-                                                            $sql = 'SELECT * FROM course as d1
-                                                                    INNER JOIN    course_teacher as d2
-                                                                    ON d1.Course_ID=d2.Course_ID
-                                                                    INNER JOIN course_user as d3
-                                                                    ON d1.Course_ID=d3.Course_ID
-                                                                    WHERE users_id = '.$_SESSION['user_id'].'';
+                                                                $sql = 'SELECT * FROM course_user WHERE users_id = '.$_SESSION['user_id'].'';
+                                                                // $sql = 'SELECT * FROM  course INNER JOIN course_teacher ON course.Course_ID=course_teacher.Course_ID ';
 
                                                     $result = mysqli_query($connect,$sql);
                                                     $row = mysqli_fetch_array($result);
@@ -91,13 +87,16 @@ include_once 'header_user.php';
                                             $connect = mysqli_connect("localhost","root","","academicservicedb");
                                             mysqli_set_charset($connect, "utf8");
                                                     if (!isset($smtUpdate)) {
-                                                    $sql = 'SELECT * FROM course as d1
-                                                            INNER JOIN    course_teacher as d2
-                                                            ON d1.Course_ID=d2.Course_ID
-                                                            INNER JOIN course_user as d3
-                                                            ON d1.Course_ID=d3.Course_ID
-                                                            WHERE users_id = '.$_SESSION['user_id'].'';
-                                                       
+                                                        // $sql = 'SELECT * FROM course_teacher as d1
+                                                        // INNER JOIN    course as d2
+                                                        // ON d1.Course_ID=d2.Course_ID
+                                                        // INNER JOIN course_user as d3
+                                                        // ON d1.Course_ID=d3.Course_ID
+                                                        // WHERE users_id = '.$_SESSION['user_id'].'';
+                                                 
+
+                                                        $sql = 'SELECT * FROM course_teacher as d1 INNER JOIN course   as d2 ON d1.Course_ID=d2.Course_ID ';
+
 
                                                         $result = mysqli_query($connect,$sql);
                                                         $numrows = mysqli_num_rows($result);

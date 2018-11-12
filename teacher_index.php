@@ -68,15 +68,15 @@ body{
 
                             // $sql = 'SELECT * form users_teacher  INNER JOIN course 
                             // ON users_teacher.teacher_ID=course.teacher_ID  
-                            // Where users_teacher.teacher_ID =" '.$_SESSION['user_id'].' " ';
+                            // Where teacher_ID =" '.$_SESSION['user_id'].' " ';
                             
 
 
-                                $sql = 'SELECT * FROM  users As d1
-                                INNER JOIN course AS d2 
-                                ON (d1.teacher_ID=d2.teacher_ID)
-                                INNER JOIN users_teacher AS d3
-                                ON (d1.teacher_ID=d3.teacher_ID)  WHERE user_id = '.$_SESSION['user_id'].' ';
+                                // $sql = 'SELECT * FROM  users As d1
+                                // INNER JOIN course AS d2 
+                                // ON (d1.teacher_ID=d2.teacher_ID)
+                                // INNER JOIN users_teacher AS d3
+                                // ON (d1.teacher_ID=d3.teacher_ID)  WHERE user_id = '.$_SESSION['user_id'].' ';
                                 
                                 $result = mysqli_query($connect,$sql);
                                 $numrows = mysqli_num_rows($result);
