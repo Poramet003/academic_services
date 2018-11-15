@@ -129,6 +129,15 @@ if (isset($_POST['login'])) {
     max-width: 80%;
     height: auto;
 }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #31708f;
+}
+
+.banner {
+    position: relative;
+    background-color: #103167;
+}
 </style>
 
 

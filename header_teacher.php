@@ -28,9 +28,19 @@
 <!-- [เชื่อม] favicon -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/bootstrap/css/popupcourse.css">
 <!-- [เชื่อม] CSS ตกแต่ง -->    
   </head>
+  <style>
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #31708f;
+}
 
+footer {
+    background-color: #081e42;
+    color: #AEAEAC;
+}
+  </style>
 <body style="background-color:white;" >
 
 <!-- header -->

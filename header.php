@@ -24,7 +24,24 @@
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <!-- [เชื่อม] CSS ตกแต่ง -->    
     <link rel="stylesheet" href="assets/bootstrap/css/popupForSignupAndSignin.css"> <!-- POPUP สมัครสมาชิก / ล็อคอิน -->  
+    <link rel="stylesheet" href="assets/bootstrap/css/popupcourse.css">
   </head>
+  <style>
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #aeb6c2;
+}
+.navbar-default .navbar-toggle {
+    background-color: #31708f;
+}
+table {
+    background-color: #103167;
+}
+
+footer {
+    background-color: #081e42;
+    color: #AEAEAC;
+}
+  </style>
 
 <body style="background-color:white;">
 

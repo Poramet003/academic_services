@@ -14,7 +14,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #1ab188;
+  color: #31708f;
   transition: .5s ease;
 }
 a:hover {
@@ -54,11 +54,11 @@ a:hover {
   transition: .5s ease;
 }
 .tab-group li a:hover {
-  background: #179b77;
+  background: #31708f;
   color: #ffffff;
 }
 .tab-group .active a {
-  background: #1ab188;
+  background: #31708f;
   color: #ffffff;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 
 h1 {
   text-align: center;
-  color: #ffffff;
+  color: #3d3d3d;
   font-weight: 300;
   margin: 0 0 40px;
 }
@@ -94,7 +94,7 @@ label {
 }
 label .req {
   margin: 2px;
-  color: #1ab188;
+  color: #31708f;
 }
 
 label.active {
@@ -120,13 +120,13 @@ input, textarea {
   background: none;
   background-image: none;
   border: 1px solid #a0b3b0;
-  color: #ffffff;
+  color: #000000;
   border-radius: 0;
   transition: border-color .25s ease, box-shadow .25s ease;
 }
 input:focus, textarea:focus {
   outline: 0;
-  border-color: #1ab188;
+  border-color: #31708f;
 }
 
 textarea {
@@ -162,7 +162,7 @@ textarea {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1em;
-  background: #1ab188;
+  background: #31708f;
   color: #ffffff;
   transition: all 0.5s ease;
   -webkit-appearance: none;
@@ -176,7 +176,9 @@ textarea {
   width: 100%;
 }
 
+
 .forgot {
   margin-top: -20px;
   text-align: right;
 }
+

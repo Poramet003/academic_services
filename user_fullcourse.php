@@ -199,7 +199,7 @@ if (isset($_POST['login'])) {
                                         <div class="">    
                                             <?php 
                                                 echo '      
-                                                    <table background="images/building.png"  width="100%" height="50%">
+                                                    <table  width="100%" height="50%">
                                                         <tr> 
                                                             <td>  
                                                                 <br>   
@@ -230,10 +230,7 @@ if (isset($_POST['login'])) {
                                 echo'     
                                             <div class="container">    
                                                     <div class="col-sm-7">
-                                                        <div class="well">
-                                                            <h4>รายละเอียด</h4>
-                                                                <p> &nbsp;&nbsp;&nbsp;&nbsp;'.$row['Detail_Course'].'</p>
-                                                        </div>
+                                                      
                                                         <div class="well">
                                                             <h4>สิ่งที่คุณจะได้รับ</h4>
                                                                 <p> &nbsp;&nbsp;&nbsp;&nbsp;'.$row['Course_Benfit'].'</p>

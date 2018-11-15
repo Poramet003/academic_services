@@ -23,8 +23,8 @@
 <!-- [เชื่อม] favicon -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
-<!-- [เชื่อม] CSS ตกแต่ง -->    
-    <link rel="stylesheet" href="css/popupForSignupAndSignin.css"> <!-- POPUP สมัครสมาชิก / ล็อคอิน -->  
+<!-- [เชื่อม] CSS ตกแต่ง -->  
+    <link rel="stylesheet" href="assets/bootstrap/CSS/popupForSignupAndSignin.css"> <!-- POPUP สมัครสมาชิก / ล็อคอิน -->  
   </head>
 
 <body style="background-color:white;">
@@ -39,7 +39,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php"><img src="images/logococ.png"  alt="holiday crown"></a>
+      <a class="navbar-brand" href="index.php"><img src="images/logococ.png" width="120px"  alt="College of Computing"></a>
     </div>
 <!-- แก้ไข Menu -->
    
@@ -109,7 +109,7 @@
    
     <button class="button button-block">
     <br>
-    <h4>ส่วนสำหรับสมัครสมาชิก อาจาย์ผู้สอน</h4>
+    <h3>ส่วนสำหรับสมัครสมาชิก อาจาย์ผู้สอน</h3>
     </button>        
   <!-- ฟอร์มหลัก -->
 	  <div class="form">
